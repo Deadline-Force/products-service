@@ -1,4 +1,11 @@
 services:
+  front:
+    container_name: frontend-react
+    build: ./front/
+    ports:
+      - 3000:3000
+    depends_on:
+      - back
   back:
     container_name: backend-java
     build: ./backend/
