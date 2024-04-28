@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100svw;
+    height: 100svh;
+}
+
+input {
+    margin: 1.5vw;
+    font-size: 5vw;
+    border: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    font-size: 5vw;
+    border: 0;
+    background: purple;
+    color: white;
+    margin: 3vw;
+    padding: 1% 15%;
+    border-radius: 1vw;
+    box-shadow: 0 0 .3vw black;
+    transition: .3s;
+}
+
+button:hover {
+    background: deeppink;
+    transition: .3s;
+}
